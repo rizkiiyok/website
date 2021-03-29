@@ -1,6 +1,7 @@
 body {
     height: 100vh;
     background-size: cover;
+    background-image: url("dazai.jpg");
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
