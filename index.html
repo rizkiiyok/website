@@ -1,35 +1,64 @@
 <!DOCTYPE html>
 <html lang="in">
+<head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<head>
-    <title>Nekopoi KusoGaki</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
+    <title>Ryuenime | Nonton Dan Downloads Anime</title>
     <style>
-        .tengah{
+        a{
+            text-decoration: none;
+        }
+
+        ul{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: red;
+            border: 5px solid blue;
+        }
+
+        li{
+            float: left;
+        }
+
+        li a{
+            display: block;
+            color: white;
             text-align: center;
+            padding: 14px 20px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 20px;
         }
-        .kanan{
-            text-align: right;
+
+        li a:hover{
+            background-color: #ff3333;
         }
-        .kiri{
-            text-align: left;
+        div.a{
+            margin-left: 0;
+            margin-right: 0;
+            background-color: black;
+            border: 5px solid blue;
+        }
+        div.logo{
+            background-color: rgb(0, 0, 0);
+            border: 5px solid blue;
         }
     </style>
 </head>
-
-<body">
-    <div class="kiri">
-        <h1 class="kiri" style="color: white">Nekopoi Gaki</h1><br>
-            <video oncontextmenu="return false;" controls>
-                <source src="video/nekopoi-1.mp4" type="video/mp4" id="video">
-            </video>
-        </h1>
+<body oncontextmenu="return false" onkeydown="return false;" onmousedown="return false;" style="background-color: black;">
+    <div class="logo">
+        <h1 style="color: white; text-align: center;">RYUENIME</h1>
     </div>
-        <div class="kiri" class="animek">
-            <a style="font-size: 25px; color: white;" href="neko2/index.html">Klik Nekopoi 2</h1>
-        </div>
+    <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="daftar-anime/index.html">DAFTAR ANIME</a></li>
+    </ul>
+    <div class="a">
+        <a href="tonikaku-kawai/index.html"><img src="tonikaku-kawai/images.jpeg" style="margin-left: 9.5px;" height="300px" width="200px"></a>
+        <a href="boku-no-hero/index.html"><img src="boku-no-hero/images.jpeg" style="margin-top: 1px;" height="300px" width="200px"></a>
+        <a href="one-punch-man/index.html"><img src="one-punch-man/images.jpeg" style="margin-left: 9.5px;" height="300px" width="200px"></a>
+    </div>
 </body>
-
 </html>
